@@ -2,7 +2,7 @@
 # 3. Write a program that produce the following output giving an integer input n.
 while True:
     x = int(input("Please input integer number: "))
-    if(x>0):
+    if(x>0 and x%1==0):
         break;
 
 # 3.1
@@ -97,20 +97,26 @@ def zoneabcde(n):
         print("".join(sym))
 
 while(True):
-    patt = input("Please select pattern you want to show 3.1, 3.2, 3.3, 3.4, 3.5, 3.6")
-    if(patt == 3.1,3.2,3.3,3.4,3.5,3.6):
+    patt = input("Please select pattern you want to show 3.1, 3.2, 3.3, 3.4, 3.5, 3.6 :")
+    if patt in ("3.1","3.2","3.3","3.4","3.5","3.6"):
         break
-    
-if(patt == 3.1):
+
+if(patt == "3.1"):
+    print("3.1")
     slope(x)
-elif(patt == 3.2):
+elif(patt == "3.2"):
+    print("3.2")
     slope_re(x)
-elif(patt == 3.3):
+elif(patt == "3.3"):
+    print("3.3")
     halfclub(x)
-elif(patt == 3.4):
+elif(patt == "3.4"):
+    print("3.4")
     star(x)
-elif(patt == 3.5):
+elif(patt == "3.5"):
+    print("3.5")
     diamond(x)
-elif(patt == 3.6):
+elif(patt == "3.6"):
+    print("3.6")
     zoneabcde(x)
 

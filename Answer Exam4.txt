@@ -1,0 +1,4 @@
+4. (Python specific) In Python, what is the difference between else and finally in exception handling?
+In Python, else will execute if no exception occurs, but finally will still run after every block executes even if an exception occurs. 
+So the difference between else and finally in terms of exception handling is that else will run like a normal code if no exception occurs, 
+but after the exception handling part, but finally whatever you do in the exception handling block finally will be executed.

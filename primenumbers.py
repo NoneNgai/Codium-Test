@@ -1,4 +1,5 @@
 
+# Medium 1. Write a program that finds all prime numbers up to n for input n. Example Output:
 while True:
     x = int(input("Enter range of number you want to find prime numbers: "))
     if(x>=0):

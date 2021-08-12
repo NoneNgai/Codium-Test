@@ -1,3 +1,4 @@
+#2. Write a program that determine whether or not an integer input is a leap year.
 def leap(year):
     if(year % 400 == 0):
         print(str(year) + " -> true")
